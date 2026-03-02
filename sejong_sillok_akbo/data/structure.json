@@ -1,0 +1,96 @@
+{
+  "title": "세종장헌대왕실록악보 (世宗莊憲大王實錄樂譜)",
+  "source": "세종실록 권136-147",
+  "notation": "정간보 (井間譜)",
+  "jeonggans_per_haeng": 32,
+  "daegangs_per_haeng": 12,
+  "created": "1447 (세종 29년)",
+  "volumes": {
+    "권136": {
+      "content": ["아악보서", "악보목록", "아악보", "조회악"],
+      "type": "아악"
+    },
+    "권137": {
+      "content": ["제사악", "의례경전통해 시악", "원조임우대성악보"],
+      "type": "아악"
+    },
+    "권138": {
+      "content": ["정대업지무악보", "보태평지무악보"],
+      "type": "신악 (정간보)",
+      "status": "현존 (종묘제례악)"
+    },
+    "권139": {
+      "content": {
+        "발상지무악보": {
+          "movements": [
+            {"name": "조광", "hanja": "照光", "alt_name": "희광", "alt_hanja": "熙光"},
+            {"name": "순우", "hanja": "純佑"},
+            {"name": "창부", "hanja": "昌符"},
+            {"name": "영경", "hanja": "靈慶"},
+            {"name": "신계", "hanja": "神啓"},
+            {"name": "현휴", "hanja": "顯休"},
+            {"name": "정희", "hanja": "禎禧"},
+            {"name": "강보", "hanja": "降寶"},
+            {"name": "응명", "hanja": "凝命"},
+            {"name": "가서", "hanja": "嘉瑞"},
+            {"name": "화성", "hanja": "和聲"}
+          ]
+        }
+      },
+      "type": "신악 (정간보)",
+      "status": "전폐"
+    },
+    "권140": {
+      "content": ["봉래의", "전인자", "여민락보", "치화평 상"],
+      "type": "신악 (정간보)",
+      "status": "여민락 현존, 치화평 복원(2014)"
+    },
+    "권141": {"content": ["치화평 중"], "type": "신악"},
+    "권142": {"content": ["치화평 하상"], "type": "신악"},
+    "권143": {"content": ["치화평 하중"], "type": "신악"},
+    "권144": {"content": ["치화평 하하"], "type": "신악"},
+    "권145": {
+      "content": ["취풍형 상", "취풍형 하"],
+      "type": "신악 (정간보)",
+      "status": "복원(2014)"
+    },
+    "권146": {
+      "content": ["봉황음", "만전춘"],
+      "type": "속악 (정간보)",
+      "status": "전폐"
+    },
+    "권147": {
+      "content": ["사직악장", "종묘악장", "풍운뢰우산천성황악장", "선농악장", "선잠악장", "우사악장", "문선왕석전악장", "둑제악장", "문소전악장", "용비어천가서", "용비어천가 125장"],
+      "type": "악장 (가사)"
+    }
+  },
+  "lost_pieces": [
+    {"name": "발상지무", "volume": "권139", "movements": 11, "status": "전폐 — 세계 어디에도 음원 없음"},
+    {"name": "봉황음", "volume": "권146", "status": "전폐 — 처용가 곡조 기반"},
+    {"name": "만전춘", "volume": "권146", "status": "전폐 — 노랫말만 전승"}
+  ],
+  "pitch_system": {
+    "description": "12율 4청성 체계",
+    "yulmyeong": {
+      "黃": {"name": "황종", "midi": 63, "western": "Eb4"},
+      "大": {"name": "대려", "midi": 64, "western": "E4"},
+      "太": {"name": "태주", "midi": 65, "western": "F4"},
+      "夾": {"name": "협종", "midi": 66, "western": "F#4"},
+      "姑": {"name": "고선", "midi": 67, "western": "G4"},
+      "仲": {"name": "중려", "midi": 68, "western": "Ab4"},
+      "蕤": {"name": "유빈", "midi": 69, "western": "A4"},
+      "林": {"name": "임종", "midi": 70, "western": "Bb4"},
+      "夷": {"name": "이칙", "midi": 71, "western": "B4"},
+      "南": {"name": "남려", "midi": 72, "western": "C5"},
+      "無": {"name": "무역", "midi": 73, "western": "C#5"},
+      "應": {"name": "응종", "midi": 74, "western": "D5"},
+      "潢": {"name": "청황종", "midi": 75, "western": "Eb5"},
+      "汰": {"name": "청태주", "midi": 77, "western": "F5"}
+    }
+  },
+  "references": [
+    {"author": "이혜구", "title": "세종실록악보 역주", "publisher": "세종대왕기념사업회", "year": 1973},
+    {"author": "문숙희", "title": "조선 궁중음악의 실체와 복원", "publisher": "민속원", "year": 2025},
+    {"author": "문숙희", "title": "세종실록악보 봉래의의 음악적 구성", "journal": "한국공연문화연구", "year": 2013}
+  ]
+}
